@@ -8,11 +8,7 @@ Tools Required:
 
 Nmap (Network Mapper)
 Terminal or Command Prompt
-Steps to Reproduce: To identify open ports on the website, run an Nmap scan:
-
-bash
-Copy
-Edit
+Steps to Reproduce: To identify open ports on the website, run an Nmap scan
 nmap testphp.vulnweb.com
 Results: The Nmap scan reveals the following open ports on testphp.vulnweb.com:
 
@@ -35,9 +31,6 @@ Steps to Reproduce:
 
 Install Dirb.
 Run a directory brute-force scan on the website:
-bash
-Copy
-Edit
 dirb http://testphp.vulnweb.com/
 Severity:
 
